@@ -6,8 +6,7 @@ lint:
 		poetry run flake8 recursive_programming_python
 selfcheck:
 		poetry check
-check:
-		selfcheck test lint
+check: selfcheck test lint
 		
-.PHONY: install test lint
+.PHONY: install test lint selfcheck check
 
