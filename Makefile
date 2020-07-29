@@ -1,7 +1,7 @@
 install:
 		@poetry install
 test:
-		poetry run pytest recursive_programming_python test
+		poetry run pytest recursive_programming_python tests
 lint:
 		poetry run flake8 recursive_programming_python
 selfcheck:
